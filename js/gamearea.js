@@ -18,6 +18,8 @@ class GameArea {
     this.playTimer = null;
   }
 
+  // Some utils
+
   everyInterval(n) {
     if ((this.frameno / n) % 1 == 0) {
       return true;
@@ -46,6 +48,7 @@ class GameArea {
   }
 
   // Refresh each element
+
   clearCanvas() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
   }
@@ -82,7 +85,6 @@ class GameArea {
   }
 
   //  When playing
-
   refreshBase() {
     this.base.moveLeft();
     this.base.draw();
@@ -133,6 +135,7 @@ class GameArea {
   }
 
   // Refresh each scene
+  
   // When waitting
   refreshWhenWait() {
     this.clearCanvas();

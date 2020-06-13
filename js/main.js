@@ -298,5 +298,4 @@ let computedConfig = {
 document.body.onload = function () {
   let gameArea = new GameArea();
   gameArea.startWaitting();
-  // console.log(gameArea);
 };

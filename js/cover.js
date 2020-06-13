@@ -12,7 +12,7 @@ class Cover {
   }
 
   moveRight() {
-    this.x += 20;
+    this.x += 25;
   }
 
   isOutOfScope() {
